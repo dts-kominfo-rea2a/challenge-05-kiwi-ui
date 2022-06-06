@@ -12,7 +12,7 @@ const sorter = (array,fn) => {
   let hasil = []
   for (let index = 0; index < array.length; index++) {
     let hasil1 = "";
-    hasil1 = hasil.push(`${index+1}.${array[index]}`);
+    hasil1 = hasil.push(`${index+1}. ${array[index]}`);
   } 
   return hasil;
   }
